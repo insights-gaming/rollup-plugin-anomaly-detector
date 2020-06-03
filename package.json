@@ -1,6 +1,6 @@
 {
   "name": "@insights-gaming/rollup-plugin-anomaly-detector",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "dependencies": {
     "@rollup/pluginutils": "^3.0.10"

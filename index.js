@@ -12,7 +12,7 @@ export default function anomalyDetector({
                 importer &&
                 !id.startsWith('.') &&
                 filter(id) &&
-                id.match(/^(@[\w-]+\/)?[\w]+\//)
+                id.match(/^(?:@[^\/]+\/)?[^@\/]+\//)
             ) {
                 throw new Error(`non-root package import detected: ${id} imported in ${importer}`);
             }
